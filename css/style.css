@@ -6,115 +6,145 @@ body {
     margin: 0;
 }
 
-
 .gradient {
     background: rgb(5, 7, 8);
-    background: linear-gradient(165deg, rgba(1, 24, 40, 1) 0%,
-    rgba(179, 165, 94, 1) 0%,
-    rgba(12, 163, 175, 1) 0%,
-    rgba(4, 54, 82, 1) 93%,
-    rgba(253, 254, 255, 1) 99%);
+    background: linear-gradient(165deg, rgba(1, 24, 40, 1) 0%, rgba(179, 165, 94, 1) 0%, rgba(12, 163, 175, 1) 0%, rgba(4, 54, 82, 1) 93%, rgba(253, 254, 255, 1) 99%);
 }
-
 
 .navbar-nav {
     color: white;
     font-family: 'Helvetica Neue LT Std';
     float: right;
-   margin-top: 20px;
+    margin-top: 20px;
     font-size: 18px;
 }
-.bg-black{
+
+.bg-black {
     background-color: black!important;
 }
 
-.banner-bg{
-background-color: black;
+.banner-bg {
+    background-color: black;
 }
 
 .banner-img {
     background: url(../images/homebanner.png) no-repeat center;
     height: 80vh;
     width: 100%;
-
-
 }
-.banner-text{
+
+.banner-text {
     text-align: center;
     padding-top: 8rem;
     color: rgb(223, 215, 202);
 }
 
-.area-img
-{
-height: 200px;
+.area-img {
+    height: 200px;
 }
-.area-head{
+
+.area-head {
     padding-left: 110px;
 }
 
-.about{
+.about {
     background-color: #F2F2F3;
-
 }
 
-.about-img{
+.about-img {
     height: fit-content;
     width: 650px;
 }
-.about-text{
+
+.about-text {
     text-align: center;
     margin-top: 70px;
 }
-.abt-p{
+
+.abt-p {
     margin-right: 40px;
     margin-left: 40px
 }
-.service
-{
+
+.service {
     background-color: black;
     color: white;
 }
-.service-card
-{
+
+.service-card {
     background-color: #43330e !important;
-    color: white; 
+    color: white;
 }
-.slide-head{
+
+.slide-head {
     text-align: center;
     margin: revert;
 }
-.service-icon{
+
+.service-icon {
     text-align: center;
     font-size: 3rem;
     margin: 5px;
 }
 
-.btn-banner
-{
+.btn-banner {
     background-color: #43330e !important;
     color: white !important;
     width: auto !important;
- 
 }
-.bg-success{
-    background-color: #C8A962 !important;
-}
-.bg-primary{
-    background-color: #43330e !important;  
-}
-.recently
-{
-    
-        background-color: #F2F2F3;
-    
-   
-}
-.ptest{
+
+.ptest {
     margin-top: 100px;
 }
-.btn-img
-{
+
+.btn-img {
     margin-left: 80px;
     margin-top: 20px;
+}
+
+.contact-textfield {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #ffffff8f;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #B2934B;
+}
+
+.contact-textfield::placeholder {
+    color: #ffffffde;
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+}
+
+.bg-common {
+    background-color: #F2F2F3;
+}
+
+.color-gold {
+    color: #B2934B
+}
+
+.bg-gold {
+    background-color: #B2934B;
+}
+
+.feature {}
+
+.feature i {
+    align-items: center;
+    font-size: 30px;
+}
+
+.feature div {
+    max-width: 12em;
+}
+
+.feature div div {
+    font-weight: 500;
+}
+
+.feature p {
+    font-size: 13px;
 }
